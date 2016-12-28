@@ -3,7 +3,7 @@
 const config = {
   CREDENTIALS: {
     ident: process.env.XIRSYS_IDENT || 'ethiccone',
-    secret: process.env.XIRSYS_SECRET || '7e503b0a-cce1-11e6-8084-9bedfe5ede71',
+    secret: process.env.XIRSYS_SECRET || 'token here',
     domain: process.env.XIRSYS_DOMAIN || 'peerjsdemo',
     application: process.env.XIRSYS_APP || 'peerjsdemo',
     room: process.env.XIRSYS_ROOM || 'peerjsdemo',
