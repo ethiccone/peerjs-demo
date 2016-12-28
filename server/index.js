@@ -26,5 +26,5 @@ app.set('view engine', 'handlebars');
 routes.root(app);
 routes.peerjs(app, server);
 
-server.listen(config.PORT);
-console.log(`Server listening on port ${ config.PORT }`);
+server.listen(config.PORT, config.HOST);
+console.log(`Server listening on ${ config.HOST }:${ config.PORT }`);
